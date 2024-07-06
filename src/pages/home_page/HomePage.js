@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      // href="https://github.com/MD-MAFUJUL-HASAN"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/albert-eng-b85671294"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +61,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      // href="https://www.instagram.com/_md_mafujul_hasan_/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -71,7 +71,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      // href="https://www.facebook.com/mh.tonmoy.13"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -81,7 +81,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
+                      href="mailto:alberteng0825@gmail.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
