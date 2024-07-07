@@ -29,9 +29,9 @@ const About = () => {
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">Shi Le E </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                  and I am a <b className="purple">Senior Fullstack Engineer </b> 
+                    with more than <b className="purple">10 years of experience </b>
+                      in Singapore.
                 <br />
                 <br />
                         I am proficient in various programming languages such as &nbsp;
@@ -45,7 +45,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    NodeJS, ReactJS, NextJS, Django, Laravel, OpenCV, Pandas, and NumPy.{" "}
                   </b>
                 <br />
                 <br />
