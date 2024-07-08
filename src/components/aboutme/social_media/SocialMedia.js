@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { FaGoogle } from "react-icons/fa";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
@@ -43,7 +44,7 @@ export default function SocialMedia() {
           </Col> */}
           <Col md={3}>
             <a
-              // href="https://github.com/MD-MAFUJUL-HASAN"
+              href="https://github.com/goldragon57"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -62,6 +63,18 @@ export default function SocialMedia() {
             >
               <Zoom cascade>
                 <AiFillLinkedin />
+              </Zoom>
+            </a>
+          </Col>
+          <Col md={3}>
+            <a
+              href="mailto:alberteng0825@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour  home-social-icons"
+            >
+              <Zoom cascade>
+              <FaGoogle />
               </Zoom>
             </a>
           </Col>

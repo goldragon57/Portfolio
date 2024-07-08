@@ -24,7 +24,7 @@ function EducationJourney() {
       </div>
       <div className="mt-5">
         <Flip top cascade>
-          <h1>Qualification Journey</h1>
+          <h1>Educational Journey</h1>
         </Flip>
       </div>
       <VerticalTimeline>
