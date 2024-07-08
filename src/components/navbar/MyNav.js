@@ -89,7 +89,7 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/certificatepage"
@@ -97,7 +97,7 @@ export default function MyNav() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link

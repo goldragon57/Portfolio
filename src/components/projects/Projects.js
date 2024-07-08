@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import spartan from "../../images/spartan.png";
+import arivu from "../../images/arivu.png";
+import indian from "../../images/indian.png";
+import joke from "../../images/joke.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                     SPARTAN
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={spartan} alt={spartan} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://marvelous-crack-5191.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +66,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      Spartan is a website dedicated to men's fashion, with a focus on formal wear. The website provides a platform for customers to create their own customized clothing, allowing them to tailor their clothing to fit their unique style and preferences.
                     </p>
                   </h6>
                   <div
@@ -82,7 +77,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    HTML, CSS, JavaScript, React
                   </div>
                 </div>
               </Fade>
@@ -99,13 +94,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                    AṞIVU
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={arivu} alt={arivu} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://puny-potato-4945.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -129,11 +124,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      Arivu is an e-learning platform similar to Coursera. It allows students, teachers, and site administrators to engage in live lectures, post lectures, and perform daily activities. The platform includes features for banning suspicious users, ensuring a secure learning environment.
                     </p>
                   </h6>
                   <div
@@ -144,7 +135,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    NodeJS, ExpressJS, ReactJS, MongoDB,
                   </div>
                 </div>
               </Fade>
@@ -161,13 +152,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                    INDIAN STATES
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={indian} alt={indian} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://indian-states.netlify.app/index.html"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -191,11 +182,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      Indian States offers a convenient shopping experience with a user-friendly interface and a wide range of products from various brands. Customers can easily find what they are looking for, and can also filter products based on their preferences such as size, color, and price.
                     </p>
                   </h6>
                   <div
@@ -206,7 +193,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    Html5, CSS, JavaScript, PHP, SCSS, WordPress, PHP
                   </div>
                 </div>
               </Fade>
@@ -223,13 +210,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                    JOKE GENERATOR
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={joke} alt={joke} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://joke-indol.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -253,9 +240,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      Created a fun Joke Generator app using OpenAI API, delivering a delightful experience with witty and entertaining jokes. Let the app bring laughter to your day with clever humor!
                     </p>
                   </h6>
                   <div
@@ -266,7 +251,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    HTML, CSS, SCSS, React, Express, Typescript, AI
                   </div>
                 </div>
               </Fade>
