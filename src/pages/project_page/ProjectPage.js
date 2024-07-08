@@ -11,7 +11,7 @@ import ninja from "../../images/ninja.png";
 import ems from "../../images/ems.png";
 import aroma from "../../images/aroma.png";
 import onboarding from "../../images/onboarding.png";
-import meal from "../../images/dc.png";
+import meal from "../../images/meal.png";
 import ac from "../../images/academic.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
