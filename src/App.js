@@ -22,7 +22,7 @@ import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
 import ComingSoon from "./pages/comingsoon_page/comingsoon";
 import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
-import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
+// import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
 // import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
@@ -49,7 +49,7 @@ function App() {
             <Route path="personalskill" element={<PersonalSkill />} />
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
-            <Route path="projectjourney" element={<ProjectJourney />} />
+            {/* <Route path="projectjourney" element={<ProjectJourney />} /> */}
             <Route
               path="educationjourney"
               element={<EducationJourney />}

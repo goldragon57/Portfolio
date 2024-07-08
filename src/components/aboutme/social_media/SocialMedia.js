@@ -17,7 +17,7 @@ export default function SocialMedia() {
       </Zoom>
       <Container className="mt-5">
         <Row className="g-5">
-          <Col md={3}>
+          {/* <Col md={3}>
             <a
               href="https://www.instagram.com/_md_mafujul_hasan_/"
               target="_blank"
@@ -28,8 +28,8 @@ export default function SocialMedia() {
                 <AiOutlineInstagram />
               </Zoom>
             </a>
-          </Col>
-          <Col md={3}>
+          </Col> */}
+          {/* <Col md={3}>
             <a
               href="https://www.facebook.com/mh.tonmoy.13"
               target="_blank"
@@ -40,10 +40,10 @@ export default function SocialMedia() {
                 <AiFillFacebook />
               </Zoom>
             </a>
-          </Col>
+          </Col> */}
           <Col md={3}>
             <a
-              href="https://github.com/MD-MAFUJUL-HASAN"
+              // href="https://github.com/MD-MAFUJUL-HASAN"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -55,7 +55,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.linkedin.com/in/md-mafujul-hasan/"
+              href="linkedin.com/in/eng-shi-le-b7b2212a4"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

@@ -32,9 +32,6 @@ function TechnicalJourney() {
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
       </div>
       <div className="mt-5">
         <Flip top cascade>
