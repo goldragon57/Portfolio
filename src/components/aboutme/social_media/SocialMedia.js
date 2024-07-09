@@ -56,7 +56,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="linkedin.com/in/eng-shi-le-b7b2212a4"
+              href="https://www.linkedin.com/in/albert-eng-b85671294"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
