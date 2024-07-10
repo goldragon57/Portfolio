@@ -129,13 +129,13 @@ export default function Contactus() {
                       </p>
                     </a>
                     <a
-                      href={`tel:+60 1153361470`}
+                      href={`tel:+65 82002515`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+60 1153361470</p>
+                      <p style={{ color: "#fbd9ad" }}>+65 82002515</p>
                     </a>
                     <a
                       // href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
@@ -146,7 +146,8 @@ export default function Contactus() {
                           <HiOutlineLocationMarker />
                         </div>
                         <p style={{ color: "#fbd9ad" }}>
-                        Jalan Mewah Ria 4/7, Johor Bahru, Johor 81200, Malaysia
+                        Block 461, Choa Che Kang Ave4, #08-75.
+                        Choa Chu Kang New Town, North West 680461 Singapore
                         </p>
                       </div>
                     </a>
