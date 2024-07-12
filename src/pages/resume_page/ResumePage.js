@@ -24,7 +24,7 @@ function Resume() {
       <section className="home-section">
         <Container fluid id="home">
           <Particle />
-          <Container className="home-content">
+          <Container className="home-content" style={{height:'90vh'}}>
             <div
               className="d-flex justify-content-center"
               width="100%"
@@ -41,7 +41,7 @@ function Resume() {
                   &nbsp;Download Resume
                 </Button>
               </div>
-              <div className="resume d-flex justify-content-center">
+              {/* <div className="resume d-flex justify-content-center">
                 <Document file={resumeLink}>
                   <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
                 </Document>
@@ -51,7 +51,7 @@ function Resume() {
                   <AiOutlineDownload />
                   &nbsp;Download Resume
                 </Button>
-              </div>
+              </div> */}
             </div>
           </Container>
         </Container>
